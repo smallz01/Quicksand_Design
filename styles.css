@@ -1,0 +1,161 @@
+/* New Style */
+body {background-color: #243648;}
+
+/* New Style */
+h1, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  color: #FFA81A;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+h2, h1 {text-align: center;}
+
+p {
+color: #ffffff;
+font-family: 'Quicksand', sans-serif;
+
+}
+
+/* For Phones */
+  @media only screen and (max-width:768px) {
+    [class*="col-"] {
+    width: 100%;
+}
+
+}
+  /* For tablets: */
+        @media only screen and (min-width: 600px) {
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+        }
+
+/* For desktop: */
+        @media only screen and (min-width: 768px) {
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }
+
+
+/* New Style */
+  html    {
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after    {
+    box-sizing: inherit;
+}
+
+.right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+  img {
+    max-height: 1%;
+    max-width: 100%;
+}
+
+/* New Style */
+#parallaxImage {
+  background-size: 1300px 600px;
+  height: 300px;
+  width: auto;
+  margin-top: 0;
+  padding: 0;
+}
+
+.regular {
+font-family: 'Quicksand', sans-serif;
+font-weight: 400;
+text-align: right;
+margin-right: 300px;
+font-size: 20px;
+
+}
+
+.medium {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  margin-left: 300px;
+  font-size: 20px;
+
+}
+
+.light {
+font-family: 'Quicksand', sans-serif;
+font-weight: 300;
+margin-left: 300px;
+font-size: 20px;
+
+}
+
+
+.bold {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 300px;
+  font-size: 20px;
+
+}
+
+a{
+  color: #F7DC6F;
+}
+
+#about_the_font{
+  margin-left: 0px;
+
+}
+
+#home{
+  margin-left: 0px;
+
+}
+
+#get_font{
+  margin-left: 0px;
+
+}
+
+#light{
+  margin-left: 0px;
+}
+
+#modern{
+  margin-left: 0px;
+
+}
+
+span{
+  text-decoration: underline;
+  text-decoration-color: #FFA81A;
+
+}
